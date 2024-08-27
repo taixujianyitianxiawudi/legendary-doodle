@@ -15,6 +15,8 @@ int main()
 
     VkInstance instance;
 
+    std::cout << "asd";
+
     VkResult result =  vkCreateInstance(&instanceInfo, 0, &instance);
     if (result == VK_SUCCESS) {
         std::cout << "Success" << std::endl;
